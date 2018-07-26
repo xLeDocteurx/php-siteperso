@@ -1,5 +1,5 @@
 <nav class="nav-bar">
-    <a href="#" class="nav-link">Home</a>
-    <a href="#" class="nav-link">Sweet</a>
-    <a href="#" class="nav-link">Home</a>
+    <a href="/?page=home" class="nav-link">Home</a>
+    <a href="/?page=bio" class="nav-link">Bio</a>
+    <a href="/?page=contact" class="nav-link">Contact</a>
 </nav>

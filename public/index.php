@@ -18,6 +18,7 @@ getPart('header');
 // LE LAISSER ICI ?
 getPart('menu');
 
-getContent('home');
+// getContent('home');
+getContent();
 
 getPart('footer');
