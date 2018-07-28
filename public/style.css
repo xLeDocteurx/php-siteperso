@@ -22,6 +22,24 @@ header {
 
 }
 
+#jumbotron-1 {
+	background-image: url('images/001.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+footer {
+
+}
+
+.shadow-d {
+	/* box-shadow: 10px 1px 10px grey; */
+	box-shadow: 0 .5rem 1rem rgba(0,0,0,.15) !important;
+} 
+.shadow-u {
+	box-shadow: -10px -1px 10px rgba(0,0,0,.15) !important;
+} 
+
 .fa-0-5 {
 	font-size: 0.5em;
 }
@@ -36,8 +54,4 @@ header {
 
 .fa-1-5 {
 	font-size: 1.5em;
-}
-
-footer {
-
 }

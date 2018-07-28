@@ -1,5 +1,5 @@
 <!-- <header class="row sticky-top"> -->
-    <nav class="row sticky-top navbar navbar-expand-md navbar-light bg-light">
+    <nav class="row sticky-top navbar navbar-expand-md navbar-light bg-light shadow-d">
         <a class="navbar-brand" href="/">
             <i class="fas fa-code-branch fa-1-5"></i> Lenoir Christopher
         </a>

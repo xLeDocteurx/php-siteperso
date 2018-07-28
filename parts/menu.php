@@ -8,7 +8,6 @@
     <ul class="navbar-nav ml-auto">
         <li class="nav-item"><a href="/?page=home" class="nav-link">Home</a></li>
         <li class="nav-item"><a href="/?page=bio" class="nav-link">Bio</a></li>
-        <li class="nav-item"><a href="/?page=user" class="nav-link">User</a></li>
         <li class="nav-item"><a href="/?page=contact" class="nav-link">Contact</a></li>
     </ul>
 </div>
