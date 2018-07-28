@@ -19,6 +19,6 @@ getPart('header');
 // getPart('menu');
 
 // getContent('home');
-getContent();
+getContent('home');
 
 getPart('footer');

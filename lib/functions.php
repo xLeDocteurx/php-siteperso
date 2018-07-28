@@ -19,11 +19,22 @@ function getPart($name){
 // 	}
 // }
 
-function getContent(){
-	if(!isset($_GET['page'])){
-		include __DIR__.'/../pages/home.php';
+function getContent($filename){
+
+	if(isset($_GET['page'])){
+
+		$filename = '../pages/'.$_GET['page'].'.php';
+
+		if(file_exists($filename)) {
+			// echo "Le fichier $filename existe.";
+			include __DIR__.'/'.$filename;
+		} else {
+			// echo "Le fichier $filename n'existe pas.";
+			include __DIR__.'/../pages/lol.php';
+		}
 	} else {
-		include __DIR__.'/../pages/'.$_GET['page'].'.php';
+		// echo "Le fichier $filename n'existe pas.";
+		include __DIR__.'/../pages/home.php';
 	}
 }
 

@@ -1,4 +1,4 @@
-    <footer class="row bg-light navbar navbar-expand-md navbar-light bg-light">
+    <footer class="fixed-bottom row bg-light navbar navbar-expand-md navbar-light bg-light">
         <span class="navbar-brand fa-1">2018 <i class="far fa-copyright fa-0-75"></i> Site fait par moi</span>
     </footer>
 
