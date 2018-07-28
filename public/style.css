@@ -1,0 +1,43 @@
+/* * {
+	box-sizing: border-box;
+	margin:0;
+	padding:0;
+	font-size:1rem;
+}
+
+html {
+	font-size:62.5%;
+} */
+
+body {
+
+}
+
+header, footer {
+
+	/* height: 50px; */
+}
+
+header {
+
+}
+
+.fa-0-5 {
+	font-size: 0.5em;
+}
+
+.fa-0-75 {
+	font-size: 0.75em;
+}
+
+.fa-1 {
+	font-size: 1em;
+}
+
+.fa-1-5 {
+	font-size: 1.5em;
+}
+
+footer {
+
+}
