@@ -2,14 +2,6 @@
 
 
 
-    <div id="portfolio" class="jumbotron mb-0 text-center">
-        <!-- <h1>Portfolio</h1> -->
-        <p>
-            <img class="img-fluid" src="images/001.png" alt="">
-        </p>
-        <a class="btn btn-outline-danger" href="#quisuisje">Qui suis-je ?</a>
-    </div> 
-
     <div id="quisuisje" class="jumbotron mb-0 text-center bg-light">
         <hr>
         <h1>Développeur web</h1>

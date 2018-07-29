@@ -6,6 +6,16 @@
     <div class="col-md-8">
         <h1>Bio</h1>
 
+
+
+    <div id="portfolio" class="jumbotron mb-0 text-center">
+        <!-- <h1>Portfolio</h1> -->
+        <p>
+            <img class="img-fluid" src="images/001.png" alt="">
+        </p>
+        <!-- <a class="btn btn-outline-danger" href="#quisuisje">Qui suis-je ?</a> -->
+    </div> 
+
         <br>
 Il faut que je trouve le moyen de mettre au clair certaines chose pour exprimer ma motivation, mes objectifs et le parcours que je projette
 Le tout ayant changé récement lorsque j'ai décidé de devenir acteur dans le rayonnement du nouvel age du reigne des développeurs.
