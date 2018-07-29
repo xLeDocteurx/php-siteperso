@@ -2,7 +2,7 @@
 
 
 
-    <div id="quisuisje" class="jumbotron mb-0 text-center bg-light">
+    <div id="quisuisje" class="jumbotron mb-0 text-center">
         <hr>
         <h1>Développeur web</h1>
         <div class="row">
@@ -20,7 +20,7 @@
         <a class="btn btn-outline-danger" href="#competences" >Compétences</a>
     </div> 
 
-    <div id="competences" class="jumbotron mb-0 text-center">
+    <div id="competences" class="jumbotron mb-0 text-center bg-light">
         <hr>
         <h1>Mes compétences</h1>
         <hr>
@@ -75,9 +75,11 @@
     </div> 
 
 
+    <div id="else" class="row w-100 p-0 m-0 jumbotron mb-0 text-center">
+
 
     <div class="col-md-2"></div>
-    <div id="else" class="col-md-8">
+    <div class="col-md-8">
     <hr>
         <h1>Autres informations pouvants figurer sur mon cv traditionnel</h1>
         <!-- <h1>maison sucré maison</h1> -->
@@ -124,4 +126,6 @@
 
     </div>
     <div class="col-md-2"></div>
+    </div>
+    
 </div>

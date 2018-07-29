@@ -1,11 +1,4 @@
-<div class="row py-5">
-
-
-
-    <div class="col-md-2"></div>
-    <div class="col-md-8">
-        <h1>Bio</h1>
-
+<div class="row pb-5">
 
 
     <div id="portfolio" class="jumbotron mb-0 text-center">
@@ -15,6 +8,14 @@
         </p>
         <!-- <a class="btn btn-outline-danger" href="#quisuisje">Qui suis-je ?</a> -->
     </div> 
+
+    <div class="col-md-2"></div>
+    <div class="col-md-8">
+
+
+
+
+    <h1>Bio</h1>
 
         <br>
 Il faut que je trouve le moyen de mettre au clair certaines chose pour exprimer ma motivation, mes objectifs et le parcours que je projette
