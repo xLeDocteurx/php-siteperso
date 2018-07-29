@@ -27,7 +27,7 @@
             </div>
             <div class="form-group text-center">
                 <button class="btn btn-primary" type="submit">Send It</button>
-                <button class="btn btn-secondary" type="submit">Admin's Page</button>
+                <a class="btn btn-secondary" href="/admin.php">Admin's Page</a>
             </div>
         </form>
 </div>
