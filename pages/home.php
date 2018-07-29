@@ -8,10 +8,11 @@
     <div class="col-md-2"></div>
     <div class="col-md-8">
         <h1>Home</h1>
+        <!-- <h1>maison sucré maison</h1> -->
+        <hr>
 
 
-        <h1>User</h1>
-            <!-- <h1>maison sucré maison</h1> -->
+
         <?php
         $datas = getUserData();
 
@@ -23,6 +24,7 @@
             if ($value_type == "array") {
                 ?>
                 
+    <hr>
                 <table class="table table-striped">
                     <thead class="thead-dark">
                         <tr>
@@ -41,6 +43,7 @@
                         ?>
                 </table>
 
+    <hr>
                 <?php
             } else {
                 echo($value."<br>");

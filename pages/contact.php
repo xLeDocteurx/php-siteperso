@@ -4,7 +4,7 @@
 
 <div class="col-md-2"></div>
 <div class="col-md-8">
-        <form class="" action="/admin.php" method="POST">
+        <form class="" action="/save.php" method="POST">
             <div class="form-group row">
                 <div class="col-6">
                 <label for="firstname">Firstname</label>
@@ -27,6 +27,7 @@
             </div>
             <div class="form-group text-center">
                 <button class="btn btn-primary" type="submit">Send It</button>
+                <button class="btn btn-secondary" type="submit">Admin's Page</button>
             </div>
         </form>
 </div>
