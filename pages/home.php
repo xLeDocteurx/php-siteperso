@@ -17,16 +17,10 @@
             <div class="col-md-2"></div>
             <div class="col-md-8">
                 <hr>
-                Vous recherchez un développeur Front-end confirmé, 
-                passionné par la création d'applications mobiles hybrides multiplateformes (code non-natif), 
-                le responsive design et le SEO, alors ma candidature devrait vous intéresser !
-                <hr>
-                Maitrisant parfaitement l’ensemble des étapes de la création Web, 
-                tant d’un point de vue technique qu’éditorial, 
-                je suis en mesure de prendre en charge la création web en responsive mais aussi 
-                la maintenance quotidienne de sites existants en assurant la mise à jour de contenus 
-                graphiques et éditoriaux tout en veillant à l’optimisation du référencement naturel mais aussi à 
-                l’ergonomie des interfaces (UX).
+                Passionné du développement depuis l'enfance et étant formé à l'ensemble des étapes de la création web et mobiles;
+                Je suis en mesure de travailler en équipe dans le respect des bonnes pratiques et des méthodes agiles.
+                <br>
+                Du développement de solutions au font-end et au back-end rien ne me fait peur. Je suis toujours prêt à parfaire mes compétences et à les mettres au service de mon équipe !
                 <hr>
             </div>
             <div class="col-md-2"></div>
@@ -43,7 +37,7 @@
                         <div class="card border-light mb-3">
                 <div class="card-header"><i class="fab fa-node fa-3"></i></div>
                 <div class="card-body">
-                    <h5 class="card-title">Light card title</h5>
+                    <h5 class="card-title">Infrastructures Node js</h5>
                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                 </div>
                         </div>
@@ -53,7 +47,7 @@
                         <div class="card border-light mb-3">
                 <div class="card-header"><i class="fab fa-php fa-3"></i></div>
                 <div class="card-body">
-                    <h5 class="card-title">Light card title</h5>
+                    <h5 class="card-title">PHP</h5>
                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                 </div>
             </div>
@@ -63,7 +57,7 @@
                 <div class="card border-light mb-3">
                 <div class="card-header"><i class="fas fa-database fa-3"></i></div>
                 <div class="card-body">
-                    <h5 class="card-title">Light card title</h5>
+                    <h5 class="card-title">Bases de donnés</h5>
                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                 </div>
                 </div>
@@ -73,8 +67,13 @@
                 <div class="card border-light mb-3">
                 <div class="card-header"><i class="fas fa-gamepad fa-3"></i></div>
                 <div class="card-body">
-                    <h5 class="card-title">Light card title</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <h5 class="card-title">Jeux</h5>
+                    <p class="card-text">
+                        - Jeu de Go<br>
+                        - Code Katas<br>
+                        - JDR<br>
+                        - Dévellopement de Jeux vidéo<br>
+                    </p>
                 </div>
                 </div>
             </div>
@@ -88,7 +87,7 @@
     <div class="col-md-2"></div>
     <div id="else" class="col-md-8">
     <hr>
-        <h1>Home</h1>
+        <h1>Autres informations pouvants figurer sur mon cv traditionnel</h1>
         <!-- <h1>maison sucré maison</h1> -->
         <hr>
         <?php
