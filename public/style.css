@@ -9,8 +9,80 @@ html {
 	font-size:62.5%;
 } */
 
+colors {
+	color: rgb(10, 62, 244);
+	color: rgb(63, 148, 240);
+	color: rgb(130, 180, 241);
+}
+
 body {
 	font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+}
+
+hr {
+	height: 2px;
+	width: 100px;
+	background-color: rgb(130, 180, 241);
+}
+
+table hr {
+	height: 1px;
+	width: 100%;
+}
+
+footer a {
+	text-decoration: none;
+}
+
+a {
+	color: rgb(63, 148, 240) !important;
+}
+
+.comps {
+	color: rgb(10, 62, 244);
+	/* color: rgb(63, 148, 240); */
+}
+
+a:hover {
+	color: rgb(10, 62, 244) !important;
+}
+
+a:active {
+	color: rgb(130, 180, 241) !important;
+}
+
+.bg-1 {
+	background-color: rgb(130, 180, 241) !important;
+}
+
+.bg-2 {
+	background-color: rgb(63, 148, 240) !important;
+}
+
+.bg-3 {
+	background-color: rgb(10, 62, 244) !important;
+}
+
+.bg-tamere {
+	background-color: rgb(214, 224, 236);
+}
+
+.img-bio-l {
+	float: left;
+	width: 200px;
+}
+
+.img-bio-r {
+	float: right;
+	width: 200px;
+}
+
+.img-large {
+	width: 200px;
+}
+
+.img-small {
+	width: 50px;
 }
 
 header, footer {
@@ -26,11 +98,21 @@ header {
 	height: 100vh;
 }
 
+/* #quisuisje {
+	background-image: url('images/bg.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+} */
+
 #jumbotron-1 {
 	background-image: url('images/001.png');
 	background-repeat: no-repeat;
 	background-size: cover;
 }
+/* #main_nav {
+	position: fixed;
+	top: 0px;
+} */
 
 footer {
 
@@ -66,4 +148,16 @@ footer {
 
 .fa-3 {
 	font-size: 3em;
+}
+
+.colored-1 {
+	color: rgb(130, 180, 241);
+}
+
+.colored-2 {
+	color: rgb(63, 148, 240);
+}
+
+.colored-3 {
+	color: rgb(10, 62, 244);
 }

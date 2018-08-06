@@ -5,7 +5,7 @@
 <div class="col-md-2"></div>
 <div class="col-md-8">
         <form class="" action="/save.php" method="POST">
-            <div class="form-group row">
+            <!-- <div class="form-group row">
                 <div class="col-6">
                 <label for="firstname">Firstname</label>
                 <input class="form-control" name="firstname" type="text">
@@ -14,7 +14,7 @@
                 <label for="lastname">Lastname</label>
                 <input class="form-control" name="lastname" type="text">
                 </div>
-            </div>
+            </div> -->
             <div class="form-group">
                 <label for="email">Email</label>
                 <input class="form-control" name="email" type="email">
@@ -27,7 +27,7 @@
             </div>
             <div class="form-group text-center">
                 <button class="btn btn-primary" type="submit">Send It</button>
-                <a class="btn btn-secondary" href="/admin.php">Admin's Page</a>
+                <!-- <a class="btn btn-secondary" href="/admin.php">Admin's Page</a> -->
             </div>
         </form>
 </div>
