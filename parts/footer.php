@@ -1,6 +1,6 @@
-    <footer class="fixed-bottom row bg-light navbar navbar-expand-md navbar-light bg-light shadow-u">
+    <!-- <footer class="fixed-bottom row bg-light navbar navbar-expand-md navbar-light bg-light shadow-u">
         <span class="navbar-brand fa-1">2018 <i class="far fa-copyright fa-0-75"></i> Site fait par moi</span>
-    </footer>
+    </footer> -->
 
     
 </div>
@@ -11,5 +11,20 @@
 
 <script src="app.js"></script>
 
+<script>
+    new fullpage('#fullpage', {
+	//options here
+	autoScrolling:true,
+	scrollHorizontally: true
+});
+
+//methods
+fullpage_api.setAllowScrolling(true);
+</script>
+
+<!-- <script src="dist/scripts.js"></script> -->
+<!-- <script>
+  sr.reveal('.animated');
+</script> -->
 </body>
 </html>

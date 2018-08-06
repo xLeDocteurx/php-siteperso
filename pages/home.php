@@ -1,8 +1,8 @@
-<div class="row pb-5">
+<div id="fullpage" class="row">
 
 
 
-    <div id="quisuisje" class="jumbotron mb-0 text-center">
+    <div id="quisuisje" class="section fadeInUp animated jumbotron mb-0 text-center">
         <hr>
         <h1>Développeur web</h1>
         <div class="row">
@@ -20,7 +20,7 @@
         <a class="btn btn-outline-danger" href="#competences" >Compétences</a>
     </div> 
 
-    <div id="competences" class="jumbotron mb-0 text-center bg-light">
+    <div id="competences" class="section fadeInUp animated jumbotron mb-0 text-center bg-light">
         <hr>
         <h1>Mes compétences</h1>
         <hr>
@@ -75,57 +75,60 @@
     </div> 
 
 
-    <div id="else" class="row w-100 p-0 m-0 jumbotron mb-0 text-center">
+    <div id="else" class="section">
+    <div class="fadeInUp animated row w-100 p-0 m-0 jumbotron mb-0 text-center">
 
 
-    <div class="col-md-2"></div>
-    <div class="col-md-8">
-    <hr>
-        <h1>Autres informations pouvants figurer sur mon cv traditionnel</h1>
-        <!-- <h1>maison sucré maison</h1> -->
+        <div class="col-md-2"></div>
+        <div class="col-md-8">
         <hr>
-        <?php
-        $datas = getUserData();
+            <h1>Autres informations pouvants figurer sur mon cv traditionnel</h1>
+            <!-- <h1>maison sucré maison</h1> -->
+            <hr>
+            <?php
+            $datas = getUserData();
 
-        foreach($datas as $key => $value) {
-            
-            echo("<b>".$key." : </b>");
-
-            $value_type = gettype($value);
-            if ($value_type == "array") {
-                ?>
+            foreach($datas as $key => $value) {
                 
-    <hr>
-                <table class="table table-striped">
-                    <thead class="thead-dark">
-                        <tr>
-                            <th scope="col">Year</th>
-                            <th scope="col">Company</th>
-                        </tr>
-                    </thead>
-                        <?php
-                            foreach($value as $val) {
-                                
-                                echo("<tr>");
-                                echo("<th scope=\"row\">".$val->year."</th>");
-                                echo("<td>".$val->company."</td>");
-                                echo("</tr>");
-                            }
-                        ?>
-                </table>
+                echo("<b>".$key." : </b>");
 
-    <hr>
-                <?php
-            } else {
-                echo($value."<br>");
+                $value_type = gettype($value);
+                if ($value_type == "array") {
+                    ?>
+                    
+        <hr>
+                    <table class="table table-striped">
+                        <thead class="thead-dark">
+                            <tr>
+                                <th scope="col">Year</th>
+                                <th scope="col">Company</th>
+                            </tr>
+                        </thead>
+                            <?php
+                                foreach($value as $val) {
+                                    
+                                    echo("<tr>");
+                                    echo("<th scope=\"row\">".$val->year."</th>");
+                                    echo("<td>".$val->company."</td>");
+                                    echo("</tr>");
+                                }
+                            ?>
+                    </table>
+
+        <hr>
+                    <?php
+                } else {
+                    echo($value."<br>");
+                }
             }
-        }
-        ?>
+            ?>
 
 
 
-    </div>
-    <div class="col-md-2"></div>
+        </div>
+        <div class="col-md-2"></div>
+
+
     </div>
     
 </div>
