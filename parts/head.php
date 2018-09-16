@@ -14,10 +14,10 @@
     <script src="fullpage.js"></script>
 
     <link rel="stylesheet" href="style.css">
-    <!-- <script src="scrollreveal.js"></script>
+    <script src="scrollreveal.js"></script>
     <script>
         window.sr = ScrollReveal({ duration: 1000 });
-    </script> -->
+    </script>
 </head>
 <body class="bg-white">
-<div class="container-fluid">
+<div class="container-fluid m-0 p-0 w-100">
