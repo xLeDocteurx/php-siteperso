@@ -128,7 +128,7 @@
                     <div class="col-12 col-md-4">
                         <div class="card border-light mb-3">
                             <div class="card-header">
-                            <i class="colored-2 fas fa-swatchbook fa-3"></i>
+                            <i class="colored-2 fas fa-swatchbook fa-3"></i></div>
                             <div class="card-body">
                                 <h5 class="card-title">Autres Technos</h5>
                                 <p class="card-text text-justify">
